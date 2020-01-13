@@ -1,0 +1,24 @@
+- mostrar o momentJS
+- All code is guilty until proven innocent
+- Os testes irao nos salvar ?
+	. muda como vc aborda os problemas?
+- colocar no slide um exemplo de simples (soma de dois numeros)
+- exception
+- Para refletir 
+	. na consigo aplicar no dia a dia
+	. ou eu entrego o projeto ou eu escrevo os meus testes
+	. como aplicar no dia a dia
+- Em vez de usar minutos de raciocínio suspeito, podemos apenas perguntar para o computador fazendo as mudanças e rodando os testes.
+- software muda constantemente
+
+- Testes manuais (testes automatizados tem os mesmos passos)
+	1. pensar em un cenário
+	2. executar uma ação
+	3. validar a saida
+
+- teste automatizados são rápidos de serem executados
+- não falham
+- depois de escrito ele não tem custo
+- quais testes devemos escrever
+- podemos refatorar nossos codigos pois temos uma bateria de testes implementados que garantem o funcionamento correto
+- testar nossas exceptions
