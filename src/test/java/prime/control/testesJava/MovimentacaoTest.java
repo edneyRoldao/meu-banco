@@ -24,7 +24,7 @@ public class MovimentacaoTest {
 
         float saldoFinalEsperado = 150.00F;
 
-//        Assert.assertEquals(saldoFinalEsperado, conta.getSaldo(), 0.00001);
+        Assert.assertEquals(saldoFinalEsperado, conta.getSaldo(), 0.00001);
     }
 
     @Test
@@ -47,10 +47,10 @@ public class MovimentacaoTest {
 
     }
 
-//    @Test(expected = RuntimeException.class)
-//    public void naoDeveRealizarProximaOperacaoAntesUmMinuto() {
-//
-//    }
+    @Test(expected = RuntimeException.class)
+    public void naoDeveRealizarProximaOperacaoAntesUmMinuto() {
+
+    }
 
     @Test
     public void realizarOperacaoAposUmMinuto() {
